@@ -1,0 +1,34 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tutorial Heaven</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="./scripts.js" defer></script>
+    </head>
+    <body>
+       <main>
+          <header>
+              <img class="header-logo" src="img/logo.png">
+              <h2 class="header-title">Tutorials</h2>
+          </header>     
+          <div id="form-container">
+              <form id="form" autocomplete="off">
+                 <input id="note-title" placeholder="Title" type="text">
+                 <input id="note-text" placeholder="Take a note..." type="text"> 
+                 <div id="form-buttons">
+                    <button type="submit" id="submit-button">Submit</button> 
+                    <button type="button" id="form-close-button">Close</button> 
+                 </div>
+              </form>              
+          </div>
+          <div id="notes"></div>
+          <div id="placeholder">
+              <img id="placeholder-logo" src="./img/floppy-disk.svg">
+              <p id="placeholder-text">Notes you add appear here</p>
+          </div>
+       </main> 
+    </body>
+</html>
+
